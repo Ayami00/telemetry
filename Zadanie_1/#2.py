@@ -2,9 +2,9 @@
 #секунды и выведите в формате чч:мм:сс. Используйте форматирование строк.
 
 sec = int(input('Введите число: '))
-hours = sec // 3600
-residue = sec % 3600
-minutes = residue // 60
-sec1 = residue % 60
+chas = sec // 3600
+ost = sec % 3600
+min = sec // 60
+sec1 = ost % 60
 
-print(f'Перевод выполнен:{sec}:{minutes}:{hours}')
+print(f'Перевод выполнен:{sec}:{min}:{chas}')
