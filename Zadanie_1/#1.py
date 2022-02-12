@@ -5,4 +5,5 @@
 a = input('Введите первое число:')
 b = input('Введите второе число:')
 
-print(a,b)
+print('a =', a, '  type:', type(a))
+print('b =', b, '  type:', type(b))
