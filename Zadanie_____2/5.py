@@ -12,16 +12,16 @@
 
 N = int(input("Введите число: "))
 list = [11, 7, 5, 3, 3, 2]
-c = list.count(N)
+x = list.count(N)
 for element in list:
-    if c > 0:
-        i = list.index(N)
-        list.insert(i+c, N)
+    if x > 0:
+        z = list.index(N)
+        list.insert(z+x, N)
         break
     else:
         if N > element:
-            j = list.index(element)
-            list.insert(j, N)
+            y = list.index(element)
+            list.insert(y, N)
             break
         elif N < list[len(list) - 1]:
             list.append(N)
