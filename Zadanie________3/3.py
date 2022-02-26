@@ -3,12 +3,12 @@
 
 def fun(x, y, z):
     suma = [x, y, z]
-    total = []
+    sp = []
     a = max(suma)
-    total.append(a)
+    sp.append(a)
     suma.remove(a)
     b = max(suma)
-    total.append(b)
+    sp.append(b)
 
-    print(sum(total))
+    print(sum(sp))
 print(fun(int(input("Введите первое число:")), int(input("Введите второе число: ")), int(input("Введите третье число:"))))
