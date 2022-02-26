@@ -3,7 +3,7 @@
 
 def fun(x, y, z):
     suma = [x, y, z]
-    sp = []
+    sp = [ ]
 
     a = max(suma)
     sp.append(a)
