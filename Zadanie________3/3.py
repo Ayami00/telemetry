@@ -4,6 +4,7 @@
 def fun(x, y, z):
     suma = [x, y, z]
     sp = []
+
     a = max(suma)
     sp.append(a)
     suma.remove(a)
